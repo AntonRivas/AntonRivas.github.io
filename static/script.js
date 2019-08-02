@@ -1,5 +1,11 @@
 
 document.addEventListener('DOMContentLoaded', () => {
+
+  document.querySelector('h1').onclick = () => {
+    window.location = "index.html";
+  }
+
+
   var coll = document.getElementsByClassName("collapsible");
   var i;
 
