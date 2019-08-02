@@ -7,12 +7,23 @@
   height: 100%
 }
 
+.box1{
+
+  flex-shrink: 0;
+}
 .top-container{
+  flex: 1 0 0;
   background-color: #a6a6a6;
   width: 100%;
   height: 60px;
+
   position: absolute; top: 0;
   position: absolute; top: 0;
+}
+
+.box2{
+  flex: 3 0 0;
+  flex-shrink: 0;
 }
 .container{
   position: absolute; top: 0;
@@ -69,4 +80,24 @@ p{
 button{
   font-family: Helvetica;
   font-size: 120%
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  h2{
+    font-family: Verdana;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+    margin-top: 20%;
+  }
+
+  .container{
+    position: absolute; top: 0;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .super{
+    overflow-y: scroll;
+  }
 }
