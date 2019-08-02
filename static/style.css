@@ -78,6 +78,17 @@ button{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  h1{
+    cursor: pointer;
+    color:white;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 15px;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+  }
+  
   h2{
     font-family: Verdana;
     font-weight: lighter;

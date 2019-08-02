@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  document.querySelector('h1').onclick = () => {
+  document.querySelector('top-container').onclick = () => {
     window.location = "index.html";
   }
 
