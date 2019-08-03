@@ -49,6 +49,51 @@
   background-color: #f1f1f1;
 }
 
+.burger{
+  margin-left: 95%;
+  margin-top: -50px;
+}
+.burger-stripe{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 h1{
   cursor: pointer;
   color:white;
@@ -79,7 +124,6 @@ button{
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   h1{
-    cursor: pointer;
     color:white;
     font-family: Helvetica;
     font-weight: bold;
@@ -88,7 +132,7 @@ button{
     font-weight: lighter;
     font-stretch: ultra-expanded;
   }
-  
+
   h2{
     font-family: Verdana;
     font-weight: lighter;
@@ -104,5 +148,10 @@ button{
   }
   .super{
     overflow-y: scroll;
+  }
+
+  .burger{
+    margin-left: 85%;
+    margin-top: 0px;
   }
 }
