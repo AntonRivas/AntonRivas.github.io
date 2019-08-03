@@ -51,6 +51,7 @@
 }
 
 .burger{
+  cursor: pointer;
   margin-left: 95%;
   margin-top: -50px;
 }
@@ -127,7 +128,6 @@ a {
 }
 
 h1{
-  cursor: pointer;
   color:white;
   font-family: Helvetica;
   font-weight: bold;
