@@ -76,6 +76,9 @@
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
+  font-family: Verdana;
+  font-weight: lighter;
+  font-stretch: ultra-expanded;
   font-size: 30px;
   color: #818181;
   display: block;
@@ -94,6 +97,32 @@
   margin-left: 50px;
 }
 
+
+.project-container{
+  position: absolute; top: 0;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 25%;
+}
+
+.project-title{
+  background-color: #777;
+  color: white;
+}
+.project{
+  background-color: #f1f1f1;;
+  margin-left: 20px;
+  width: 100%;
+}
+.sticky{
+  position: sticky;
+   top: 0;
+}
+
+a {
+  color: #cc0000;
+}
+
 h1{
   cursor: pointer;
   color:white;
@@ -110,10 +139,39 @@ h2{
   font-weight: lighter;
   font-stretch: ultra-expanded;
 }
+h3{
+  margin-left: 5px;
+  font-size: 120%;
+  font-family: Verdana;
+  font-weight: lighter;
+  font-stretch: ultra-expanded;
+}
 
+h4{
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 40px;
+  font-size: 110%;
+  font-family: Arial;
+}
 p{
   font-family: Arial;
-  font-size: 110%
+  font-size: 110%;
+  margin-left: 5px;
+}
+
+i{
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 40px;
+  font-size: 100%;
+  font-family: Arial;
+}
+
+b{
+  font-family: Arial;
+  font-size: 110%;
+  margin-left: 5px;
 }
 
 button{
@@ -139,6 +197,7 @@ button{
     font-stretch: ultra-expanded;
     margin-top: 20%;
   }
+
 
   .container{
     position: absolute; top: 0;
