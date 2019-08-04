@@ -56,10 +56,10 @@
   margin-top: -50px;
 }
 .burger-stripe{
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+  width: 30px;
+  height: 4px;
+  background-color: #f1f1f1;
+  margin: 5px 0;
 }
 
 .sidebar {
@@ -69,7 +69,7 @@
   z-index: 1;
   right: 0;
   top: 0;
-  background-color: #111;
+  background-color: #f2f2f2;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -79,16 +79,16 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-family: Verdana;
-  font-weight: lighter;
+  font-weight: bolder;
   font-stretch: ultra-expanded;
   font-size: 30px;
-  color: #818181;
+  color: black;
   display: block;
   transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: #cc0000;
 }
 
 .sidebar .close-btn {
@@ -198,7 +198,7 @@ button{
     font-family: Verdana;
     font-weight: lighter;
     font-stretch: ultra-expanded;
-    margin-top: 20%;
+    margin-top: 22%;
   }
 
 
@@ -221,6 +221,13 @@ button{
   .burger{
     margin-left: 85%;
     margin-top: 0px;
+  }
+
+  .burger-stripe{
+    width: 30px;
+    height: 4px;
+    background-color: #777;
+    margin: 5px 0;
   }
   .sticky{
     position: sticky;
