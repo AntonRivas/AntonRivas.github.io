@@ -107,6 +107,12 @@
   margin-right: 25%;
 }
 
+.project-catagory{
+  color: #4d4d4d;
+  font: Arial;
+  font-stretch: ultra-expanded
+}
+
 .project-title{
   background-color: #777;
   padding-left: 10px;
