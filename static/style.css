@@ -238,7 +238,7 @@ button{
 
   .container{
     position: absolute; top: 0;
-    height:250%;
+    height:150%;
     width:80%;
     margin-top: 15%;
     margin-left: 10%;
@@ -251,7 +251,7 @@ button{
   }
 
   .top1{
-    width: 100%;
+    width: 50%;
     float:left;
     margin-top: -1.4%;
     margin-left: 3%;
@@ -264,7 +264,8 @@ button{
   }
   .burger{
     cursor: pointer;
-    margin-left: 85%;
+    margin-left: 80%;
+    margin-right: 5%;
     margin-top: 15px;
   }
 
