@@ -9,7 +9,9 @@
 }
 
 .topcontainer{
-  flex 1 0 0 ;
+  height: 20%;
+  margin-bottom:50%;
+
 }
 .container{
   position: absolute; top: 0;
@@ -47,13 +49,13 @@
 
 .burger{
   cursor: pointer;
+  margin-top: 0%;
   margin-left: 95%;
-  margin-top: -50px;
 }
 .burger-stripe{
   width: 30px;
   height: 4px;
-  background-color: #f1f1f1;
+  background-color: black;
   margin: 5px 0;
 }
 
@@ -213,7 +215,7 @@ button{
     font-family: Verdana;
     font-weight: lighter;
     font-stretch: ultra-expanded;
-    margin-top: 22%;
+    margin-top: 5%;
   }
 
 
@@ -226,6 +228,8 @@ button{
     margin-right: 10%;
   }
   .super{
+    display: flex;
+    flex: 1;
     overflow-y: scroll;
   }
 
@@ -237,13 +241,13 @@ button{
   }
   .burger{
     margin-left: 85%;
-    margin-top: 0px;
+    margin-top: 15px;
   }
 
   .burger-stripe{
     width: 30px;
     height: 4px;
-    background-color: #777;
+    background-color: black;
     margin: 5px 0;
   }
   .sticky{
