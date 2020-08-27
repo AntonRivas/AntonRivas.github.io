@@ -2,49 +2,150 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <script src = "static/script.js"></script>
         <link rel="stylesheet" type="text/css" href="static/style.css" media="screen" />
-        <title>My Personal Website</title>
+        <style>
+
+
+          .content {
+            padding: 16px;
+          }
+
+          .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+
+          .sticky + .content {
+            padding-top: 102px;
+          }
+
+        </style>
+        <title>My Portfolio</title>
     </head>
 
     <body>
-      <div id="mySidebar" class="sidebar">
-        <a href = 'javascript:void(0)' class = 'close-btn'>&times;</a>
-        <a href = 'index.html'>Home</a>
-        <a href = 'projects.html'>Projects</a>
-        <a href = 'contact.html'>Contact</a>
+      <div class = 'super'>
+        <header class = 'header' id="myHeader">
+          <div class = 'row-flex lighten center'>
+            <a class = 'header-text links lighten' href = 'index.html'>Home</a>
+            <a class = 'header-text links lighten' href = 'contact.html'>Contact</a>
+          </div>
+          <br>
+        </header>
+        <div class = 'title-box'>
+          <h4 class = 'title lighten'>Welcome to my site</h4>
+        </div>
+
+        <div class = 'description lighten'>
+        <br>
+
+        <div class = 'desc-box'>
+        <p class = 'desc'>I am a 4th year Applied Math student at University College Dublin. I decided to make this website to showcase some of my projects and experience.</p>
+        </div>
+        <br><br><br>
+        </div>
+
+        <div class = 'grey'>
+        <div class = 'desc-box'>
+          <br><br>
+          <h3 class = ' sub-title lighten'>Experience</h3>
+          <hr>
+          <h6 class = 'desc bolder no-margin-vert'>June-August 2020</h6>
+          <br>
+          <div class = 'row-flex no-margin-vert'>
+            <h6 class = 'desc lighten no-margin-vert position-title' >SmartMargins:</h6>
+            <h6 class = 'desc bolder no-margin-vert'>Software Engineer Intern</h6>
+          </div>
+          <div class = 'desc-margin'>
+            <p class = 'desc lighten'>• Built SmartMargins website using <b class = 'bolder'>Django</b> framework and <b class = 'bolder'>AWS ElasticBeanstalk.</b></p>
+            <p class = 'desc lighten'>• Built a webscraper in <b class = 'bolder'>Python</b> using BS4 to obtain price data from products in Google Shopping.</p>
+            <br><br>
+          </div>
+
+
+        </div>
+      </div>
+      <div class = 'dark-grey'>
+
+
+        <div class = 'desc-box'>
+          <br><br>
+          <h3 class = ' sub-title lighten'>Projects</h3>
+          <hr>
+          <h6 class = 'desc bolder no-margin-vert'>May-June 2020</h6>
+          <br>
+          <div class = 'row-flex no-margin-vert'>
+            <h6 class = 'desc lighten no-margin-vert position-title' >MineSweeper AI</h6>
+          </div>
+          <div class = 'desc-margin'>
+            <p class = 'desc lighten'>• Built a simple AI in <b class = 'bolder'>Python</b> with PyGame library to play, detect and flag mines in Minesweeper using a rule-based system.</p>
+              <p class = 'desc lighten'>• Code for project available <a class = 'links bolder' href = 'https://github.com/AntonRivas/AI/tree/master/minesweeper' target = '_blank'>here</a>.</p>
+          </div>
+
+          <br>
+
+          <h6 class = 'desc bolder no-margin-vert'>January 2019</h6>
+          <br>
+          <div class = 'row-flex no-margin-vert'>
+            <h6 class = 'desc lighten no-margin-vert position-title' >COMAP Mathematical Modelling Competition</h6>
+          </div>
+          <div class = 'desc-margin'>
+            <p class = 'desc lighten'>• Co-wrote a paper on a drone delivery system to deliver aid in Puerto Rico. Won an <b class = 'bolder'>Honourable Mention</b>.</p>
+              <p class = 'desc lighten'>• You can view the paper <a class = 'links bolder' href = '2019_MCM_Paper.pdf' target = '_blank'>here</a>.</p>
+
+          <br>
+
+          <h6 class = 'desc bolder no-margin-vert'>August 2019</h6>
+          <br>
+          <div class = 'row-flex no-margin-vert'>
+            <h6 class = 'desc lighten no-margin-vert position-title' >Movie Search Mobile App</h6>
+          </div>
+          <div class = 'desc-margin'>
+            <p class = 'desc lighten'>• Made a MovieSearch App in <b class = 'bolder'>React Native</b> that used the OMDB API to find and display films to a user.</p>
+              <p class = 'desc lighten'>• A demo can be seen <a class = 'links bolder' href = 'https://snack.expo.io/@superantman/moviesearch-app' target = '_blank'>here</a>. (set device to Android)</p>
+              <br><br><br>
+
+          </div>
+
+
+            </div>
+
+          </div>
+
       </div>
 
-      <div class = 'super'>
+      <div class = 'darkest-grey'>
+        <br><br><br>
+        <footer>
+          <div class = 'desc-box'>
+            <p>© Anton Rivas 2020</p>
+        </div>
+        </footer>
+        <br>
+      </div>
 
-        <div class = 'top-container'>
-          <div class = 'top1'>
-            <h1>My Website</h1>
-          </div>
-
-          <div class = 'burger'>
-            <div class = 'burger-stripe'></div>
-            <div class = 'burger-stripe'></div>
-            <div class = 'burger-stripe'></div>
-          </div>
-
-        </div>
-       <div class = 'container'>
-         <div class = 'sub-container'>
-           <h2>Welcome!</h2>
-          <br>
-             <p>My name is Anton and I'm a 4th year Applied Mathematics student at <a href = "https://www.myucd.ie/courses/science/applied-computational-mathematics/"  target="_blank" >UCD</a>. This website was made by me using GitHub Pages in my spare time in order to showcase some of my work to people. While my degree has elements of coding, most of the languages used were learnt in my own time. The most common language I use is <b>Python</b>, but I've also worked in Javascript, mostly with React. If you click on the right you can see more of what I've done.</p>
-          <hr>
-        </div>
-        <div class = 'sub-container'>
-          <h2>Currently Working On:</h2>
-          <br>
-             <p>Currently I'm working on redesigning this website. </p>
-        </div>
-        </div>
     </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
+
     </body>
+
+
 
 </html>

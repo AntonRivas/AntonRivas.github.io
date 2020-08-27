@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <script src = "static/script.js"></script>
         <link rel="stylesheet" type="text/css" href="static/style.css" media="screen" />
-        <title>Contact Me</title>
-  </head>
+        <style>
 
-  <body>
-      <div id="mySidebar" class="sidebar">
-        <a href = 'javascript:void(0)' class = 'close-btn'>&times;</a>
-        <a href = 'index.html'>Home</a>
-        <a href = 'projects.html'>Projects</a>
-        <a href = 'contact.html'>Contact</a>
-      </div>
 
-      <div class = 'super'>
-        <div class = 'top-container'>
-          <div class = 'top1'>
-            <h1>My Website</h1>
-          </div>
+          .content {
+            padding: 16px;
+          }
 
-          <div class = 'burger'>
-            <div class = 'burger-stripe'></div>
-            <div class = 'burger-stripe'></div>
-            <div class = 'burger-stripe'></div>
-          </div>
+          .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
 
+          .sticky + .content {
+            padding-top: 102px;
+          }
+
+        </style>
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+
+    <div class = 'super'>
+      <header class = 'header' id="myHeader">
+        <div class = 'row-flex lighten center'>
+          <a class = 'header-text links lighten' href = 'index.html'>Home</a>
+          <a class = 'header-text links lighten' href = 'contact.html'>Contact</a>
         </div>
-        <div class = 'container'>
-          <div class = 'sub-container'>
-          <br>
-          <br>
-          <h2>If you'd like to contact me here's my details:</h2>
-          <p>Github: <a href = "https://github.com/AntonRivas" target="_blank">github.com/AntonRivas</a></p>
-          <p>Linkedin: <a href = "https://www.linkedin.com/in/anton-rivas-pertile-972470165/" target="_blank">Anton Rivas Pertile</a></p>
-          <p>Email: antondearribas@gmail.com</p>
-        </div>
-        </div>
-      </div>
-  </body>
+      </header>
+      <div class = 'desc-box'>
+    <h1 class = 'sub-title lighten'>Contact</h1>
+    <h5 class = 'desc lighten no-margin-vert'>Email: <a class = 'links' href = 'mailto:antondearribas@gmail.com'>antondearribas@gmail.com</a></h5>
+    <br>
+    <h5 class = 'desc lighten no-margin-vert'><a class = 'links'href = ''>Github</a></h5>
+    <br>
+    <h5 class = 'desc lighten no-margin-vert'><a class = 'links' href = ''>Linkedin</a> </h5>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+  </div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+</script>
+
+</body>
+<footer>
+  <div class = 'desc-box'>
+    <p>© Anton Rivas 2020</p>
+</div>
+</footer>
 
 </html>
